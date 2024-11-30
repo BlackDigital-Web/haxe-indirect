@@ -1,0 +1,24 @@
+{
+  "name": "haxe-indirect",
+  "version": "1.0.0",
+  "description": "Reproduction parodique du site internet officiel HAXE DIRECT.",
+  "main": "server.js",
+  "type":"module",
+  "scripts": {
+    "dev":"node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "haxe-indirect"
+  },
+  "author": "Whitney CLAIRE",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "eslint": "^9.16.0",
+    "express": "^4.21.1",
+    "pg": "^8.13.1",
+    "prettier": "^3.4.1"
+  }
+}
